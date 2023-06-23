@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ListWithFavorites from './components/ListWithFavorites';
-import ErrorMessage from './errorMessage/ErrorMessage';
+import ErrorMessage from './components/errorMessage/ErrorMessage';
 import LoadingState from './components/LoadingState/LoadingState';
 import { GlobalStyleWrapper } from './components/StyledGlobal';
 
