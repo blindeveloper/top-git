@@ -1,3 +1,9 @@
+**Trending repositories on GitHub**
+The idea of this project is to implement a small client application for discovering trending repositories on GitHub.
+
+- A list of the repositories created in the last 7 days with the most number of stars in github are displayed and the user is able to favourite them
+- The favourited repositories are visible either through a filter. Info about the repo is displayed, such as repo name, link to GitHub, description and number of stars.
+
 **Core of this App**: Decided to go with create-react-app builder for saving time on tuning all in app configurations.
 
 **Caching**: I tried to make this app fully covered with cache idea. This app should not request any data again if they were previously requested. + I tried to store to the cache only useful info
